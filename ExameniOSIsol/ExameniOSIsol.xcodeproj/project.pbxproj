@@ -14,6 +14,17 @@
 		C89895B62E00D00E00F57DCB /* ExameniOSIsolTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895B52E00D00E00F57DCB /* ExameniOSIsolTests.swift */; };
 		C89895C02E00D00E00F57DCB /* ExameniOSIsolUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895BF2E00D00E00F57DCB /* ExameniOSIsolUITests.swift */; };
 		C89895C22E00D00E00F57DCB /* ExameniOSIsolUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895C12E00D00E00F57DCB /* ExameniOSIsolUITestsLaunchTests.swift */; };
+		C89895D42E00D3E700F57DCB /* Product.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895D32E00D3E700F57DCB /* Product.swift */; };
+		C89895D62E00D41100F57DCB /* ProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895D52E00D41100F57DCB /* ProductService.swift */; };
+		C89895D82E00D4AB00F57DCB /* ProductListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895D72E00D4AB00F57DCB /* ProductListViewModel.swift */; };
+		C89895DA2E00D57900F57DCB /* NetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895D92E00D57900F57DCB /* NetworkManager.swift */; };
+		C89895DC2E00E5CC00F57DCB /* ProductRowView.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895DB2E00E5CB00F57DCB /* ProductRowView.swift */; };
+		C89895DE2E00E6CF00F57DCB /* SearchBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895DD2E00E6CF00F57DCB /* SearchBar.swift */; };
+		C89895E12E00E79300F57DCB /* Color.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895E02E00E79300F57DCB /* Color.swift */; };
+		C89895E32E01164E00F57DCB /* ProductServiceTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C89895E22E01164D00F57DCB /* ProductServiceTests.swift */; };
+		C8C463FB2E01BA02007ABCFF /* MockNetworkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C463FA2E01BA02007ABCFF /* MockNetworkManager.swift */; };
+		C8C463FD2E01BA37007ABCFF /* MockProductService.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C463FC2E01BA37007ABCFF /* MockProductService.swift */; };
+		C8C464002E01BAEF007ABCFF /* NetworkFetching.swift in Sources */ = {isa = PBXBuildFile; fileRef = C8C463FF2E01BAEF007ABCFF /* NetworkFetching.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -44,6 +55,17 @@
 		C89895BB2E00D00E00F57DCB /* ExameniOSIsolUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ExameniOSIsolUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C89895BF2E00D00E00F57DCB /* ExameniOSIsolUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExameniOSIsolUITests.swift; sourceTree = "<group>"; };
 		C89895C12E00D00E00F57DCB /* ExameniOSIsolUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExameniOSIsolUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		C89895D32E00D3E700F57DCB /* Product.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Product.swift; sourceTree = "<group>"; };
+		C89895D52E00D41100F57DCB /* ProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductService.swift; sourceTree = "<group>"; };
+		C89895D72E00D4AB00F57DCB /* ProductListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductListViewModel.swift; sourceTree = "<group>"; };
+		C89895D92E00D57900F57DCB /* NetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkManager.swift; sourceTree = "<group>"; };
+		C89895DB2E00E5CB00F57DCB /* ProductRowView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductRowView.swift; sourceTree = "<group>"; };
+		C89895DD2E00E6CF00F57DCB /* SearchBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchBar.swift; sourceTree = "<group>"; };
+		C89895E02E00E79300F57DCB /* Color.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Color.swift; sourceTree = "<group>"; };
+		C89895E22E01164D00F57DCB /* ProductServiceTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProductServiceTests.swift; sourceTree = "<group>"; };
+		C8C463FA2E01BA02007ABCFF /* MockNetworkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockNetworkManager.swift; sourceTree = "<group>"; };
+		C8C463FC2E01BA37007ABCFF /* MockProductService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockProductService.swift; sourceTree = "<group>"; };
+		C8C463FF2E01BAEF007ABCFF /* NetworkFetching.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetworkFetching.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,13 +116,14 @@
 		C89895A32E00D00B00F57DCB /* ExameniOSIsol */ = {
 			isa = PBXGroup;
 			children = (
+				C8C463FE2E01BADC007ABCFF /* Protocols */,
+				C89895DF2E00E77D00F57DCB /* Extensions */,
 				C89895D22E00D24F00F57DCB /* Utilities */,
 				C89895D12E00D24100F57DCB /* Services */,
 				C89895D02E00D23500F57DCB /* ViewModels */,
 				C89895CF2E00D22000F57DCB /* Views */,
 				C89895CE2E00D20E00F57DCB /* Models */,
 				C89895A42E00D00B00F57DCB /* ExameniOSIsolApp.swift */,
-				C89895A62E00D00B00F57DCB /* ContentView.swift */,
 				C89895A82E00D00E00F57DCB /* Assets.xcassets */,
 				C89895AA2E00D00E00F57DCB /* Preview Content */,
 			);
@@ -119,6 +142,7 @@
 			isa = PBXGroup;
 			children = (
 				C89895B52E00D00E00F57DCB /* ExameniOSIsolTests.swift */,
+				C89895E22E01164D00F57DCB /* ProductServiceTests.swift */,
 			);
 			path = ExameniOSIsolTests;
 			sourceTree = "<group>";
@@ -135,6 +159,7 @@
 		C89895CE2E00D20E00F57DCB /* Models */ = {
 			isa = PBXGroup;
 			children = (
+				C89895D32E00D3E700F57DCB /* Product.swift */,
 			);
 			path = Models;
 			sourceTree = "<group>";
@@ -142,6 +167,9 @@
 		C89895CF2E00D22000F57DCB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				C89895A62E00D00B00F57DCB /* ContentView.swift */,
+				C89895DB2E00E5CB00F57DCB /* ProductRowView.swift */,
+				C89895DD2E00E6CF00F57DCB /* SearchBar.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -149,6 +177,7 @@
 		C89895D02E00D23500F57DCB /* ViewModels */ = {
 			isa = PBXGroup;
 			children = (
+				C89895D72E00D4AB00F57DCB /* ProductListViewModel.swift */,
 			);
 			path = ViewModels;
 			sourceTree = "<group>";
@@ -156,6 +185,8 @@
 		C89895D12E00D24100F57DCB /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				C89895D52E00D41100F57DCB /* ProductService.swift */,
+				C8C463FC2E01BA37007ABCFF /* MockProductService.swift */,
 			);
 			path = Services;
 			sourceTree = "<group>";
@@ -163,8 +194,26 @@
 		C89895D22E00D24F00F57DCB /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
+				C89895D92E00D57900F57DCB /* NetworkManager.swift */,
+				C8C463FA2E01BA02007ABCFF /* MockNetworkManager.swift */,
 			);
 			path = Utilities;
+			sourceTree = "<group>";
+		};
+		C89895DF2E00E77D00F57DCB /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				C89895E02E00E79300F57DCB /* Color.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		C8C463FE2E01BADC007ABCFF /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				C8C463FF2E01BAEF007ABCFF /* NetworkFetching.swift */,
+			);
+			path = Protocols;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -297,8 +346,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C89895DA2E00D57900F57DCB /* NetworkManager.swift in Sources */,
 				C89895A72E00D00B00F57DCB /* ContentView.swift in Sources */,
+				C89895D82E00D4AB00F57DCB /* ProductListViewModel.swift in Sources */,
+				C89895DC2E00E5CC00F57DCB /* ProductRowView.swift in Sources */,
+				C8C463FD2E01BA37007ABCFF /* MockProductService.swift in Sources */,
+				C8C463FB2E01BA02007ABCFF /* MockNetworkManager.swift in Sources */,
+				C89895D62E00D41100F57DCB /* ProductService.swift in Sources */,
+				C89895DE2E00E6CF00F57DCB /* SearchBar.swift in Sources */,
 				C89895A52E00D00B00F57DCB /* ExameniOSIsolApp.swift in Sources */,
+				C89895D42E00D3E700F57DCB /* Product.swift in Sources */,
+				C8C464002E01BAEF007ABCFF /* NetworkFetching.swift in Sources */,
+				C89895E12E00E79300F57DCB /* Color.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -307,6 +366,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				C89895B62E00D00E00F57DCB /* ExameniOSIsolTests.swift in Sources */,
+				C89895E32E01164E00F57DCB /* ProductServiceTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -459,9 +519,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExameniOSIsol/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -476,6 +538,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.ExameniOSIsol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -487,9 +550,11 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_IDENTITY = "Apple Development";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				DEVELOPMENT_ASSET_PATHS = "\"ExameniOSIsol/Preview Content\"";
+				DEVELOPMENT_TEAM = "";
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
@@ -504,6 +569,7 @@
 				MARKETING_VERSION = 1.0;
 				PRODUCT_BUNDLE_IDENTIFIER = com.companyname.ExameniOSIsol;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
