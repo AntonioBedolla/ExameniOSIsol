@@ -10,21 +10,7 @@ import SwiftUI
 struct ContentView: View {
     @StateObject var viewModel = ProductListViewModel()
     var body: some View {
-        Text("Probando productos...") // Solo para cargar la vista
-                    .onAppear {
-                        Task {
-                            do {
-                                let products = try await ProductService().fetchProducts(for: "audifonos", page: 1)
-                                print("✅ Productos recibidos: \(products.count)")
-                                for product in products {
-                                    print("🛍️ \(product.productDisplayName)")
-                                }
-                            } catch {
-                                print("❌ Error al obtener productos: \(error)")
-                            }
-                        }
-                    }
-        /*
+        
         NavigationView{
             VStack {
                 SearchBar(text: $viewModel.searchTerm, onSearch: viewModel.search)
@@ -41,7 +27,6 @@ struct ContentView: View {
                             }
                             .navigationTitle("Productos")
             }
-         */
         }
     }
 
